@@ -64,18 +64,18 @@
                     <div class="rankContainer has-text-centered">
                         <p><strong>Old Rank</strong></p>
                         <p id="oldRank">Enter your details!</p>
-                        <img id="oldEpaulette" src="../public/images/loading.gif"/>
+                        <img id="oldEpaulette" src="./public/images/loading.gif"/>
                     </div>
                     <div class="rankContainer has-text-centered newRankContainer">
                         <p><strong>New Rank</strong></p>
                         <p id="newRank">Enter your details!</p>
-                        <img id="newEpaulette" src="../public/images/loading.gif" />
+                        <img id="newEpaulette" src="./public/images/loading.gif" />
                     </div>
                 </div>
             </div>
         </div>
     </body>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css">
-    <link rel="stylesheet" type="text/css" href="../public/stylesheets/style.css"></script>
-    <script src="../public/javascripts/formHandling.js"></script>
+    <link rel="stylesheet" type="text/css" href="./public/stylesheets/style.css"></script>
+    <script src="./public/javascripts/formHandling.js"></script>
 </html>

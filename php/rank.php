@@ -19,7 +19,7 @@
         public function toJSON() {
             $object = array(
                 'name' => $this->name,
-                'epaulette' => "../public/images/epaulettes/" . ($this->old ? 'old' : 'new') . "/{$this->epaulette}." . ($this->old ? 'gif' : 'png')
+                'epaulette' => "./public/images/epaulettes/" . ($this->old ? 'old' : 'new') . "/{$this->epaulette}." . ($this->old ? 'gif' : 'png')
             );
 
             return $object;
@@ -37,7 +37,7 @@
 
         public function getRanks()
         {
-            $file = fopen(dirname(__FILE__)."/../data/{$this->fileName}.csv", "r");
+            $file = fopen(dirname(__FILE__)."/./data/{$this->fileName}.csv", "r");
             while(!feof($file)) {
                 [$name, $hours, $points, $bonus] = fgetcsv($file);
 
