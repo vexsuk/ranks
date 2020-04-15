@@ -1,0 +1,40 @@
+.textBox {
+    width: 10em;
+}
+
+.rankContainer {
+    margin-bottom: 2px;
+}
+
+.fields {
+    display: flex;
+    justify-content: center;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#wrapper {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#switchButton {
+    margin-bottom: 20px;
+}
+
+#pilotId {
+    width: 5em;
+}
+
+img {
+    height: 38px;
+}

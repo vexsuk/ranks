@@ -1,0 +1,14 @@
+name,hours,points,bonus
+Captain Boycott,4000,250000,75000
+Yorkshire Captain,3250,165000,50000
+Training Captain,2500,120000,25000
+Senior Captain,2000,90000,10000
+Captain,1500,70000,7500
+Captain In-Training,1150,50000,5000
+Senior First Officer,750,30000,2500
+First Officer,400,20000,1000
+First Officer In-Training,250,12000,500
+Senior Second Officer,100,5000,250
+Second Officer,50,2000,0
+Second Officer In-Training,20,1000,0
+Cadet,0,0,0
