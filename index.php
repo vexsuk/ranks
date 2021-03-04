@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>vEXS Validation Tool</title>
-        <link rel="icon" href="./public/images/favicon.ico">
+        <link rel="icon" href="./public/images/favicon.ico"></link>
     </head>
     <body>
         <div id="wrapper">
